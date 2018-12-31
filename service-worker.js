@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "nzambello.github.io/newyear-countdown/precache-manifest.35c40000769efd1e45b900c24a20a3a5.js"
+  "nzambello.github.io/newyear-countdown/build/precache-manifest.5d115e1d5db719873c0ba3a9c027edbc.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("nzambello.github.io/newyear-countdown/index.html", {
+workbox.routing.registerNavigationRoute("nzambello.github.io/newyear-countdown/build/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

@@ -1,13 +1,13 @@
 {
-  "main.css": "nzambello.github.io/newyear-countdown/static/css/main.ba42c42c.chunk.css",
-  "main.js": "nzambello.github.io/newyear-countdown/static/js/main.a258fb0e.chunk.js",
-  "main.js.map": "nzambello.github.io/newyear-countdown/static/js/main.a258fb0e.chunk.js.map",
-  "static/js/1.4a34e45d.chunk.js": "nzambello.github.io/newyear-countdown/static/js/1.4a34e45d.chunk.js",
-  "static/js/1.4a34e45d.chunk.js.map": "nzambello.github.io/newyear-countdown/static/js/1.4a34e45d.chunk.js.map",
-  "runtime~main.js": "nzambello.github.io/newyear-countdown/static/js/runtime~main.d002d04e.js",
-  "runtime~main.js.map": "nzambello.github.io/newyear-countdown/static/js/runtime~main.d002d04e.js.map",
-  "static/css/main.ba42c42c.chunk.css.map": "nzambello.github.io/newyear-countdown/static/css/main.ba42c42c.chunk.css.map",
-  "index.html": "nzambello.github.io/newyear-countdown/index.html",
-  "precache-manifest.35c40000769efd1e45b900c24a20a3a5.js": "nzambello.github.io/newyear-countdown/precache-manifest.35c40000769efd1e45b900c24a20a3a5.js",
-  "service-worker.js": "nzambello.github.io/newyear-countdown/service-worker.js"
+  "main.css": "nzambello.github.io/newyear-countdown/build/static/css/main.a8dd2377.chunk.css",
+  "main.js": "nzambello.github.io/newyear-countdown/build/static/js/main.5c9ad847.chunk.js",
+  "main.js.map": "nzambello.github.io/newyear-countdown/build/static/js/main.5c9ad847.chunk.js.map",
+  "static/js/1.4a34e45d.chunk.js": "nzambello.github.io/newyear-countdown/build/static/js/1.4a34e45d.chunk.js",
+  "static/js/1.4a34e45d.chunk.js.map": "nzambello.github.io/newyear-countdown/build/static/js/1.4a34e45d.chunk.js.map",
+  "runtime~main.js": "nzambello.github.io/newyear-countdown/build/static/js/runtime~main.e48aa2e2.js",
+  "runtime~main.js.map": "nzambello.github.io/newyear-countdown/build/static/js/runtime~main.e48aa2e2.js.map",
+  "static/css/main.a8dd2377.chunk.css.map": "nzambello.github.io/newyear-countdown/build/static/css/main.a8dd2377.chunk.css.map",
+  "index.html": "nzambello.github.io/newyear-countdown/build/index.html",
+  "precache-manifest.5d115e1d5db719873c0ba3a9c027edbc.js": "nzambello.github.io/newyear-countdown/build/precache-manifest.5d115e1d5db719873c0ba3a9c027edbc.js",
+  "service-worker.js": "nzambello.github.io/newyear-countdown/build/service-worker.js"
 }
