@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "nzambello.github.io/newyear-countdown/precache-manifest.fbda8ad402a3550f455e5ff013e724b6.js"
+  "nzambello.github.io/newyear-countdown/precache-manifest.e030d3229191fc806bd54e06366fb442.js"
 );
 
 workbox.clientsClaim();
