@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4cc7ca69faaeb07c9001",
-    "url": "nzambello.github.io/newyear-countdown/static/css/main.fd409b60.chunk.css"
+    "revision": "dcec2491663b9b7fe0c8",
+    "url": "nzambello.github.io/newyear-countdown/static/css/main.1edf326b.chunk.css"
   },
   {
-    "revision": "4cc7ca69faaeb07c9001",
-    "url": "nzambello.github.io/newyear-countdown/static/js/main.4cc7ca69.chunk.js"
+    "revision": "dcec2491663b9b7fe0c8",
+    "url": "nzambello.github.io/newyear-countdown/static/js/main.dcec2491.chunk.js"
   },
   {
     "revision": "4a34e45d34cafb7623bd",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "nzambello.github.io/newyear-countdown/static/js/runtime~main.d002d04e.js"
   },
   {
-    "revision": "8f9991ea2b44984c96a90d667e67949b",
+    "revision": "2da3d085b9f90f3d21c1f5e2cc3c23b1",
     "url": "nzambello.github.io/newyear-countdown/index.html"
   }
 ];
