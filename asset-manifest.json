@@ -1,13 +1,13 @@
 {
-  "main.css": "nzambello.github.io/newyear-countdown/build/static/css/main.a8dd2377.chunk.css",
-  "main.js": "nzambello.github.io/newyear-countdown/build/static/js/main.5c9ad847.chunk.js",
-  "main.js.map": "nzambello.github.io/newyear-countdown/build/static/js/main.5c9ad847.chunk.js.map",
-  "static/js/1.4a34e45d.chunk.js": "nzambello.github.io/newyear-countdown/build/static/js/1.4a34e45d.chunk.js",
-  "static/js/1.4a34e45d.chunk.js.map": "nzambello.github.io/newyear-countdown/build/static/js/1.4a34e45d.chunk.js.map",
-  "runtime~main.js": "nzambello.github.io/newyear-countdown/build/static/js/runtime~main.e48aa2e2.js",
-  "runtime~main.js.map": "nzambello.github.io/newyear-countdown/build/static/js/runtime~main.e48aa2e2.js.map",
-  "static/css/main.a8dd2377.chunk.css.map": "nzambello.github.io/newyear-countdown/build/static/css/main.a8dd2377.chunk.css.map",
-  "index.html": "nzambello.github.io/newyear-countdown/build/index.html",
-  "precache-manifest.5d115e1d5db719873c0ba3a9c027edbc.js": "nzambello.github.io/newyear-countdown/build/precache-manifest.5d115e1d5db719873c0ba3a9c027edbc.js",
-  "service-worker.js": "nzambello.github.io/newyear-countdown/build/service-worker.js"
+  "main.css": "/static/css/main.0fb4c944.chunk.css",
+  "main.js": "/static/js/main.389015c0.chunk.js",
+  "main.js.map": "/static/js/main.389015c0.chunk.js.map",
+  "static/js/1.4a34e45d.chunk.js": "/static/js/1.4a34e45d.chunk.js",
+  "static/js/1.4a34e45d.chunk.js.map": "/static/js/1.4a34e45d.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.0fb4c944.chunk.css.map": "/static/css/main.0fb4c944.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.92452ff3274a0ca08f8762a15f78c012.js": "/precache-manifest.92452ff3274a0ca08f8762a15f78c012.js",
+  "service-worker.js": "/service-worker.js"
 }
