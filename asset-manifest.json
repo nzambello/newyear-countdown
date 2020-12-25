@@ -1,13 +1,13 @@
 {
-  "main.css": "/newyear-countdown/static/css/main.512e4e48.chunk.css",
-  "main.js": "/newyear-countdown/static/js/main.39ae6e32.chunk.js",
-  "main.js.map": "/newyear-countdown/static/js/main.39ae6e32.chunk.js.map",
+  "main.css": "/newyear-countdown/static/css/main.233e24f3.chunk.css",
+  "main.js": "/newyear-countdown/static/js/main.d9dca808.chunk.js",
+  "main.js.map": "/newyear-countdown/static/js/main.d9dca808.chunk.js.map",
   "static/js/1.4a34e45d.chunk.js": "/newyear-countdown/static/js/1.4a34e45d.chunk.js",
   "static/js/1.4a34e45d.chunk.js.map": "/newyear-countdown/static/js/1.4a34e45d.chunk.js.map",
   "runtime~main.js": "/newyear-countdown/static/js/runtime~main.6ff4e1b2.js",
   "runtime~main.js.map": "/newyear-countdown/static/js/runtime~main.6ff4e1b2.js.map",
-  "static/css/main.512e4e48.chunk.css.map": "/newyear-countdown/static/css/main.512e4e48.chunk.css.map",
+  "static/css/main.233e24f3.chunk.css.map": "/newyear-countdown/static/css/main.233e24f3.chunk.css.map",
   "index.html": "/newyear-countdown/index.html",
-  "precache-manifest.367e9460ada33e8ac926c2a6059836b0.js": "/newyear-countdown/precache-manifest.367e9460ada33e8ac926c2a6059836b0.js",
+  "precache-manifest.5f284ff3be1605e120cf1f1c8f6ccc4b.js": "/newyear-countdown/precache-manifest.5f284ff3be1605e120cf1f1c8f6ccc4b.js",
   "service-worker.js": "/newyear-countdown/service-worker.js"
 }
