@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/newyear-countdown/precache-manifest.0c991be07ffdaa9ae958d4a46932aec9.js"
+  "/newyear-countdown/precache-manifest.367e9460ada33e8ac926c2a6059836b0.js"
 );
 
 workbox.clientsClaim();
