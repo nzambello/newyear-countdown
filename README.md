@@ -1,3 +1,7 @@
+# New Year Countdown
+
+Set a countdown to the new year or see at https://nzambello.github.io/newyear-countdown/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
