@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/newyear-countdown/static/js/runtime~main.6ff4e1b2.js"
   },
   {
-    "revision": "d9dca808887b4fcd8397",
-    "url": "/newyear-countdown/static/js/main.d9dca808.chunk.js"
+    "revision": "e71c5b39362fa683aeb9",
+    "url": "/newyear-countdown/static/js/main.e71c5b39.chunk.js"
   },
   {
     "revision": "4a34e45d34cafb7623bd",
     "url": "/newyear-countdown/static/js/1.4a34e45d.chunk.js"
   },
   {
-    "revision": "d9dca808887b4fcd8397",
-    "url": "/newyear-countdown/static/css/main.233e24f3.chunk.css"
+    "revision": "e71c5b39362fa683aeb9",
+    "url": "/newyear-countdown/static/css/main.f2bbc0a6.chunk.css"
   },
   {
-    "revision": "c3cad7dd7c942f9e88eab65032db4834",
+    "revision": "525fb10f7dd1fb0e7b81a4a735a14d86",
     "url": "/newyear-countdown/index.html"
   }
 ];
