@@ -40,14 +40,14 @@ class App extends Component {
 
       return this.state.countdownData
     } else {
-      const midnight = new Date(`${newYear}-01-01 00:00`)
+      const midnight = new Date(newYear, 0, 1, 0, 0, 0, 0)
       const delta = midnight - now
 
       return {
-        days: Math.floor(delta / _day),
-        hours: Math.floor((delta % _day) / _hour),
-        minutes: Math.floor((delta % _hour) / _minute),
-        seconds: Math.floor((delta % _minute) / _second)
+        days: Math.floor(parseFloat(delta / _day)),
+        hours: Math.floor(parseFloat((delta % _day) / _hour)),
+        minutes: Math.floor(parseFloat((delta % _hour) / _minute)),
+        seconds: Math.floor(parseFloat((delta % _minute) / _second))
       }
     }
   }
@@ -76,7 +76,7 @@ class App extends Component {
         return null
       }
 
-      let number = data.toString()
+      let number = `${data}`
       if (number.length < 2) {
         number = `0${number}`
       }
