@@ -1,45 +1,54 @@
-import React, { Component } from 'react';
-import './index.scss';
+import React, { Component } from 'react'
+import './index.scss'
 
-const _second = 1000;
-const _minute = _second * 60;
-const _hour = _minute * 60;
-const _day = _hour * 24;
+const _second = 1000
+const _minute = _second * 60
+const _hour = _minute * 60
+const _day = _hour * 24
 
 class App extends Component {
   constructor() {
-    super();
+    super()
 
-    const now = new Date();
-    let imWaitingForDrinking = true; // of course default to true
-    let year = now.getFullYear() + 1;
+    const now = new Date()
+    let imWaitingForDrinking = true // of course default to true
+    let year = now.getFullYear() + 1
     let countdownData = {}
 
     if (now.getMonth() === 0 && now.getDate() === 1) {
-      imWaitingForDrinking = false;
-      year = now.getFullYear();
-    }
-    else {
-      countdownData = this.getMissingTime(now);
+      imWaitingForDrinking = false
+      year = now.getFullYear()
+    } else {
+      countdownData = this.getMissingTime(now)
     }
 
     this.state = {
       isNewYear: !imWaitingForDrinking,
       newYear: year,
       countdownID: null,
-      countdownData: countdownData,
-    };
+      countdownData: countdownData
+    }
   }
 
-  getMissingTime = now => {
-    const midnight = new Date('2019-01-01 00:00');
-    const delta = midnight - now;
+  getMissingTime = (now) => {
+    const newYear = now.getFullYear() + 1
 
-    return {
-      days: Math.floor(delta / _day),
-      hours: Math.floor((delta % _day) / _hour),
-      minutes: Math.floor((delta % _hour) / _minute),
-      seconds: Math.floor((delta % _minute) / _second),
+    if (this.state && this.state.newYear && this.state.newYear === now.getFullYear()) {
+      this.setState({
+        isNewYear: true
+      })
+
+      return this.state.countdownData
+    } else {
+      const midnight = new Date(`${newYear}-01-01 00:00`)
+      const delta = midnight - now
+
+      return {
+        days: Math.floor(delta / _day),
+        hours: Math.floor((delta % _day) / _hour),
+        minutes: Math.floor((delta % _hour) / _minute),
+        seconds: Math.floor((delta % _minute) / _second)
+      }
     }
   }
 
@@ -86,12 +95,12 @@ class App extends Component {
             <div className="text-wrapper im-drinking">
               <p>Happy New Year!</p>
               <p className="welcome">
-                Welcome to <span className="welcome-newyear">{newYear}</span>! 
+                Welcome to <span className="welcome-newyear">{newYear}</span>!
               </p>
             </div>
             <div className="pyro">
-              <div className="before"></div>
-              <div className="after"></div>
+              <div className="before" />
+              <div className="after" />
             </div>
           </React.Fragment>
         )}
@@ -99,7 +108,7 @@ class App extends Component {
           <div className="text-wrapper">
             <p>Countdown to {newYear}</p>
             <div className="countdown">
-              {getCountdownMarkup(countdownData['days'], 's')}
+              {getCountdownMarkup(countdownData['days'], 'd')}
               {getCountdownMarkup(countdownData['hours'], 'h')}
               {getCountdownMarkup(countdownData['minutes'], 'm')}
               {getCountdownMarkup(countdownData['seconds'], 's')}
@@ -107,8 +116,8 @@ class App extends Component {
           </div>
         )}
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
